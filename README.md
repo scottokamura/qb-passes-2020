@@ -33,7 +33,7 @@ Sportradar collects data on all major sports at the professional and collegiate 
 
 (insert complete_vs_pocket_time.png)
 
-(/Images/complete_vs_pocket_time.png)
+![](/ages/complete_vs_pocket_time.png)
 
 
 ## Getting Started
