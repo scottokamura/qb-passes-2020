@@ -33,7 +33,7 @@ Sportradar collects data on all major sports at the professional and collegiate 
 
 (insert complete_vs_pocket_time.png)
 
-(https://github.com/scottokamura/qb-passes-2020/blob/main/Images/complete_vs_pocket_time.png')
+(https://github.com/scottokamura/qb-passes-2020/blob/main/Images/complete_vs_pocket_time.png)
 
 
 ## Getting Started
