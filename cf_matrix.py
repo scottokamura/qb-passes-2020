@@ -12,6 +12,7 @@ def make_confusion_matrix(cf,
                           xyplotlabels=True,
                           sum_stats=True,
                           figsize=None,
+                          fontsize=None,
                           cmap='Blues',
                           title=None):
     '''
@@ -39,6 +40,8 @@ def make_confusion_matrix(cf,
     sum_stats:     If True, display summary statistics below the figure. Default is True.
 
     figsize:       Tuple representing the figure size. Default will be the matplotlib rcParams value.
+    
+    fontsize:      Integer representing fontsize. Default will be the matplotlib rcParams value.
 
     cmap:          Colormap of the values displayed from matplotlib.pyplot.cm. Default is 'Blues'
                    See http://matplotlib.org/examples/color/colormaps_reference.html
@@ -101,11 +104,12 @@ def make_confusion_matrix(cf,
 
     # MAKE THE HEATMAP VISUALIZATION
     plt.figure(figsize=figsize)
-    sns.heatmap(cf,annot=box_labels,fmt="",cmap=cmap,cbar=cbar,xticklabels=categories,yticklabels=categories)
+    sns.heatmap(cf,annot=box_labels,fmt="",cmap=cmap,cbar=cbar,xticklabels=categories,yticklabels=categories, annot_kws={'fontsize':fontsize})
 
     if xyplotlabels:
-        plt.ylabel('True label')
-        plt.xlabel('Predicted label' + stats_text)
+        labelfont= {'size':18}
+        plt.ylabel('True label', fontdict=labelfont)
+        plt.xlabel('Predicted label' + stats_text, fontdict=labelfont)
     else:
         plt.xlabel(stats_text)
     
