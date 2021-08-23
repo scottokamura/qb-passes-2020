@@ -25,20 +25,13 @@ Sportradar collects data on all major sports at the professional and collegiate 
 
 ### How does the direction and distance of the pass affect the completion rate?
 
-(insert 2020 nfl season average qb completion vs pass direc figure)
 <img src='./Images/completion_vs_passdirec.png' width="600" height="300">
 
-
-(insert completion rate vs att_yards lmplot)
 <img src='./Images/avg_complete_vs_attyards.png' width="600" height="300">
-
 
 ### Does time spent in the pocket have an effect on the completion rate of a quarterback?
 
-(insert complete_vs_pocket_time.png)
-
 <img src='./Images/complete_vs_pocket_time.png' width="600" height="300">
-
 
 ## Getting Started
 
@@ -47,7 +40,6 @@ Sportradar collects data on all major sports at the professional and collegiate 
 3. Data processing/transformation scripts are being kept [here](https://github.com/scottokamura/qb-passes-2020/blob/main/qbpasses%20scraping.ipynb)
 
 
-## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](link)
-* [Notebook/Markdown/Slide DeckTitle](link)
+## Deliverables
+* [Slide Deck Title](link)
 * [Blog Post](link)
