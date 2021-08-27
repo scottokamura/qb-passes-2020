@@ -41,5 +41,5 @@ Sportradar collects data on all major sports at the professional and collegiate 
 
 
 ## Deliverables
-* [Slide Deck Title](link)
-* [Blog Post](link)
+* [Slide Deck Title](https://docs.google.com/presentation/d/1-k4pgKk850QuY9kRGO1U6bPPjTfhJBw-k343ic7vRbY/edit?usp=sharing)
+* [Blog Post](https://scottokamura.medium.com/finding-the-data-in-data-science-182380cd3cd8)
