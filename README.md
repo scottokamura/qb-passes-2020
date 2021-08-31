@@ -1,16 +1,21 @@
-# Predicting NFL QB Completion Rates Using 
+# Predicting NFL QB Completions
 
+![qb banner](https://user-images.githubusercontent.com/65571381/131440337-428131ff-3b40-42b1-b5f8-1113bc200a94.png)
 
-## Project Intro
-The goal of this project was to predict an NFL quarterback's completion rating using data scraped from [Sportradar](https://www.sportradar.com). The dataset consisted of passer related stats (attempted yards, pocket time, etc.) as well as defensive linemen stats (blitz, players rushed, etc). The data about the coverage on the receiver was not included in the dataset and focused solely on the 
+![GitHub repo size](https://img.shields.io/github/repo-size/scottokamura/qb-passes-2020)
+![last commit date](https://img.shields.io/github/last-commit/scottokamura/qb-passes-2020)
+![forks](https://img.shields.io/github/forks/scottokamura/qb-passes-2020?style=social)
+![stars](https://img.shields.io/github/stars/scottokamura/qb-passes-2020?style=social)
 
+This repo contains a NFL quarterback pass completion prediction model for __front office__ and __coaching staff__ members to assist with team building as well as game prep/film watching. The two proposed models can assist in different scenarios:
+1. Signing or re-negotiating a QB contract
+2. Preparing against opponent QB 
 
 ### Methods Used
 * Web Scraping/API calls
 * Machine Learning
 * Data Visualization
 * Predictive Modeling
-
 
 ### Technologies
 * Python
@@ -19,27 +24,17 @@ The goal of this project was to predict an NFL quarterback's completion rating u
 * HTML, JSON, bs4
 * sklearn
 
-## Project Description
-
-Sportradar collects data on all major sports at the professional and collegiate level. The objective of this project was to determine how accurate professional quarterbacks are with their throws. The data collected did not include information pertaining to the receiver or defender on the targetted receiver. The model was focused solely on how accurate quarterbacks are with their throws aimed at different areas of the field.
-
-### How does the direction and distance of the pass affect the completion rate?
-
-<img src='./Images/completion_vs_passdirec.png' width="600" height="300">
-
-<img src='./Images/avg_complete_vs_attyards.png' width="600" height="300">
-
-### Does time spent in the pocket have an effect on the completion rate of a quarterback?
-
-<img src='./Images/complete_vs_pocket_time.png' width="600" height="300">
 
 ## Getting Started
-
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
 2. Raw Data is being kept [here](https://github.com/scottokamura/qb-passes-2020/tree/main/Data)  within this repo.
 3. Data processing/transformation scripts are being kept [here](https://github.com/scottokamura/qb-passes-2020/blob/main/qbpasses%20scraping.ipynb)
+4. Exploratory data analysis can be found [here](https://github.com/scottokamura/qb-passes-2020/blob/main/qbpass%20eda.ipynb)
+5. Model building/evaluating scripts can be found [here](https://github.com/scottokamura/qb-passes-2020/blob/main/qbpass%20models.ipynb)
 
+## Data Sources
+* [Sportradar API](https://developer.sportradar.com/)
 
 ## Deliverables
 * [Predicting NFL QB Completions](https://docs.google.com/presentation/d/1-k4pgKk850QuY9kRGO1U6bPPjTfhJBw-k343ic7vRbY/edit?usp=sharing)
-* [Blog Post](https://scottokamura.medium.com/finding-the-data-in-data-science-182380cd3cd8)
+* [Blog: Finding the Data in Data Science](https://scottokamura.medium.com/finding-the-data-in-data-science-182380cd3cd8)
